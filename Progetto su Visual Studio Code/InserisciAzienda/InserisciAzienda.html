@@ -1,0 +1,37 @@
+<html>
+    <head><title>INSERISCI AZIENDA</title></head>
+    <body>
+        <form method="POST" action="InsertAzienda.php">
+            Ragione sociale <br><textarea cols=20 rows="2" wrap="phisical" name="ragione_sociale"></textarea> <br>
+            Nome <input type="text" name="nome"><br>
+            
+            <label for="citta" class="labels" >Città:</label>
+            <select name="citta" id="citta">
+                <option value="nessuna" selected>Vuoto</option>
+                <option>Bologna</option>
+                <option>Firenze</option>
+                <option>Milano</option>
+                <option>Napoli</option>
+                <option>Roma</option>
+            </select>  <br><br>
+
+            <label for="Via" class="labels" >Via:</label>
+            <select name="Via" id="Via">
+                <option value="nessuna" selected>Vuoto</option>
+                <option>Via prova-1-171</option>
+                <option>Via prova-2-191</option>
+                <option>Via prova-3-191</option>
+                <option>Via prova-4-191</option>
+                <option>Via prova-5-121</option>
+                <option>Via prova-6-121</option>
+                <option>Via prova-7-121</option>
+                <option>Via prova-8-171</option>
+                <option>Via prova-9-111</option>
+                <option>Via prova-10-122</option>
+            
+            </select>  <br><br>
+
+            <input type="submit">
+        </form>
+    </body>
+</html>

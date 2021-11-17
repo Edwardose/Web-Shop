@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>TIPOLOGIA SPEDIZIONE</title>
+    </head>
+    <body>
+        <form method="POST" action="autonoma.php">
+            <h2>AUTONOMA</h2>
+            Inserisci Codice Spedizione <input type="text" name="codice_spedizione"><br><br>
+            <input type="submit"><br><br>
+        </form>
+        <hr>
+        <form method="POST" action="servizio.php">
+            <h2>SERVIZIO</h2>
+            Inserisci Codice Spedizione <input type="text" name="codice_spedizione"><br>
+            CF Dipendente cui assegnare la spedizione <input type="text" name="dipendente"><br>
+            ID Magazzino da cui ritirare <input type="text" name="magazzino"><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
